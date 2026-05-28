@@ -20,7 +20,6 @@ The project highlights core computer science concepts, specifically the **Time-M
 
 ## 🛠️ Installation & Setup
 
-1. **Clone the repository:**
  ```bash
 # 1. Clone the repository
 git clone https://github.com/bnyange/password-security-engine.git
