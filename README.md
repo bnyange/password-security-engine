@@ -27,11 +27,11 @@ The project highlights core computer science concepts, specifically the **Time-M
 
 2. **Create and activate a virtual environment:**
 Bash
-# On macOS/Linux
+On macOS/Linux
 python3 -m venv .venv
 source .venv/bin/activate
 
-# On Windows
+ On Windows
 python -m venv .venv
 .venv\Scripts\activate
 
