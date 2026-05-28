@@ -21,23 +21,17 @@ The project highlights core computer science concepts, specifically the **Time-M
 ## 🛠️ Installation & Setup
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-   cd YOUR_REPO_NAME
+ ```bash
+# 1. Clone the repository
+git clone https://github.com/bnyange/password-security-engine.git
+cd password-security-engine
 
-2. **Create and activate a virtual environment:**
-   Bash
-      On macOS/Linux
-         python3 -m venv .venv
-         source .venv/bin/activate
+# 2. Create and activate a virtual environment (macOS/Linux)
+python3 -m venv .venv
+source .venv/bin/activate
 
-    On Windows
-      python -m venv .venv
-      .venv\Scripts\activate
+# 3. Install the required dependencies
+pip install streamlit bcrypt
 
-3. **Install the required dependencies**
-   Bash
-      pip install streamlit bcrypt
-
-4. **Launch the interactive visual dashboard**
-      streamlit run app.py
+# 4. Launch the dashboard
+streamlit run app.py
