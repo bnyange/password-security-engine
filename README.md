@@ -26,18 +26,18 @@ The project highlights core computer science concepts, specifically the **Time-M
    cd YOUR_REPO_NAME
 
 2. **Create and activate a virtual environment:**
-Bash
-On macOS/Linux
-python3 -m venv .venv
-source .venv/bin/activate
+   Bash
+      On macOS/Linux
+         python3 -m venv .venv
+         source .venv/bin/activate
 
- On Windows
-python -m venv .venv
-.venv\Scripts\activate
+    On Windows
+      python -m venv .venv
+      .venv\Scripts\activate
 
 3. **Install the required dependencies**
-Bash
-pip install streamlit bcrypt
+   Bash
+      pip install streamlit bcrypt
 
 4. **Launch the interactive visual dashboard**
-streamlit run app.py
+      streamlit run app.py
